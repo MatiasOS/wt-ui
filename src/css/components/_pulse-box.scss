@@ -1,27 +1,3 @@
-/* PULSE BOX */
-
-/*---
-title:   Pulse Box
-section: Components
----
-
-A circular animated pulse to give some live to the pages.
-
-<p class="xsmall-sample">
-```example:html
-<div class="pulse-container">
-  <div class="pulse-box">
-    <svg class="pulse-svg" width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <circle class="circle first-circle" cx="25" cy="25" r="25"></circle>
-      <circle class="circle second-circle" cx="25" cy="25" r="25"></circle>
-      <circle class="circle third-circle" cx="25" cy="25" r="25"></circle>
-      <circle class="circle" fill="none" cx="25" cy="25" r="25"></circle>
-    </svg>
-  </div>
-</div>
-```
-
-*/
 
 .pulse-box {
   width: 100%;
