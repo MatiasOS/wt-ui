@@ -15,25 +15,8 @@ module.exports = {
     rules: [
       {
         test: /\.scss$/,
-        use: [
-          {
-            loader: 'style-loader',
-            options: { sourceMap: true }
-          },
-          {
-            loader: 'postcss-loader',
-            options: {
-              sourceMap: true,
-              plugins() {
-                return [
-                  precss,
-                  postcssCssnext,
-                ];
-              },
-            }
-          },
-          {loader: 'sass-loader'}
-        ]
+        loaders: ["style-loader", "css-loader", "sass-loader"],
+        include: path.resolve(__dirname, "../")
       },
       {
         test: /\.md$/,
