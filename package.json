@@ -36,12 +36,11 @@
     "webpack-dev-server": "^2.11.1"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.4.3",
-    "@storybook/addon-knobs": "^3.4.3",
-    "@storybook/addon-links": "^3.4.3",
-    "@storybook/addon-options": "^3.4.3",
-    "@storybook/addon-viewport": "^3.4.3",
-    "@storybook/addons": "^3.4.3",
+    "@storybook/addon-actions": "^4.0.0-alpha.7",
+    "@storybook/addon-knobs": "^4.0.0-alpha.7",
+    "@storybook/addon-links": "^4.0.0-alpha.7",
+    "@storybook/addon-options": "^4.0.0-alpha.7",
+    "@storybook/addon-viewport": "^4.0.0-alpha.7",
     "@storybook/react": "^4.0.0-alpha.7",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
